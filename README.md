@@ -1,12 +1,10 @@
-Home Page
+This project is a starting point for a Flutter application.
 
-![Screenshot 2024-08-16 054558](https://github.com/user-attachments/assets/4b4bef1d-8206-47f7-920f-e3addf91b42d)
+A few resources to get you started if this is your first Flutter project:
 
-Details Page
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-![Screenshot 2024-08-16 054723](https://github.com/user-attachments/assets/05a47738-74fb-4bfc-806b-cdbdef95cddf)
-
-
-Add New Recipe Page
-
-![Screenshot 2024-08-16 054810](https://github.com/user-attachments/assets/22c8d45a-9be0-4a02-bfa8-7a0856e53642)
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
