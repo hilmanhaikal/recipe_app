@@ -1,9 +1,12 @@
 Home Page
-![image](https://github.com/user-attachments/assets/4c970c4b-8949-44d3-93ff-9d53e7aa9025)
+
+![Screenshot 2024-08-16 054558](https://github.com/user-attachments/assets/4b4bef1d-8206-47f7-920f-e3addf91b42d)
 
 Details Page
-![image](https://github.com/user-attachments/assets/79f739d3-61df-41d4-9500-fe84e17bbe2b)
+
+![Screenshot 2024-08-16 054723](https://github.com/user-attachments/assets/05a47738-74fb-4bfc-806b-cdbdef95cddf)
+
 
 Add New Recipe Page
-![image](https://github.com/user-attachments/assets/858bb3ca-e566-499c-a5d8-a89c92be6d29)
 
+![Screenshot 2024-08-16 054810](https://github.com/user-attachments/assets/22c8d45a-9be0-4a02-bfa8-7a0856e53642)
