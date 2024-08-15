@@ -1,16 +1,9 @@
-# recipe_app
+Home Page
+![image](https://github.com/user-attachments/assets/4c970c4b-8949-44d3-93ff-9d53e7aa9025)
 
-A new Flutter project.
+Details Page
+![image](https://github.com/user-attachments/assets/79f739d3-61df-41d4-9500-fe84e17bbe2b)
 
-## Getting Started
+Add New Recipe Page
+![image](https://github.com/user-attachments/assets/858bb3ca-e566-499c-a5d8-a89c92be6d29)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
