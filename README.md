@@ -1,4 +1,6 @@
-*This is not a functional app
+# Recipe App
+
+A Flutter-based prototype for a Recipe App that allows users to manage and explore recipes. This app using a clean and user-friendly interface. Data is stored using JSON files, making it suitable as a proof of concept or a minimal viable product.
 
 ![Screenshot 2024-08-16 054558](https://github.com/user-attachments/assets/1f96289a-5cce-4c59-8dd8-8ebc90b794dc)
 
