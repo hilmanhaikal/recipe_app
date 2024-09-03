@@ -4,10 +4,12 @@ import 'pages/recipe_form_page.dart';
 import 'pages/recipe_detail_page.dart';
 
 void main() {
-  runApp(RecipeApp());
+  runApp(const RecipeApp());
 }
 
 class RecipeApp extends StatelessWidget {
+  const RecipeApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

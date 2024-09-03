@@ -9,11 +9,12 @@ class RecipeListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Recipes',
-        style: TextStyle(
-          color: Colors.white),
-          ), 
-        backgroundColor: const Color(0xFF720606)),
+        title: Text(
+          'Recipes',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: const Color(0xFF720606),
+      ),
       body: FutureBuilder<List<Recipe>>(
         future: _recipeService.loadRecipes(),
         builder: (context, snapshot) {
@@ -24,10 +25,21 @@ class RecipeListPage extends StatelessWidget {
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
             return Center(child: Text('No recipes found'));
           } else {
+            int crossAxisCount;
+            double width = MediaQuery.of(context).size.width;
+
+            if (width > 1200) {
+              crossAxisCount = 4;
+            } else if (width > 800) {
+              crossAxisCount = 3;
+            } else {
+              crossAxisCount = 2;
+            }
+
             return GridView.builder(
               padding: EdgeInsets.all(10.0),
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2,
+                crossAxisCount: crossAxisCount,
                 childAspectRatio: 3 / 4,
                 crossAxisSpacing: 10.0,
                 mainAxisSpacing: 10.0,
@@ -37,7 +49,11 @@ class RecipeListPage extends StatelessWidget {
                 final recipe = snapshot.data![index];
                 return GestureDetector(
                   onTap: () {
-                    Navigator.pushNamed(context, '/recipe_detail', arguments: recipe);
+                    Navigator.pushNamed(
+                      context,
+                      '/recipe_detail',
+                      arguments: recipe,
+                    );
                   },
                   child: Card(
                     elevation: 5.0,
@@ -100,7 +116,7 @@ class RecipeListPage extends StatelessWidget {
         onPressed: () {
           Navigator.pushNamed(context, '/new_recipe');
         },
-        child: const Icon(Icons.add, color: Colors.white,),
+        child: const Icon(Icons.add, color: Colors.white),
       ),
     );
   }
